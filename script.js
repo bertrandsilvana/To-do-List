@@ -30,9 +30,7 @@ function renderTasks() {
 
   if (sortOption.value === 'prioridad') {
     tareasOrdenadas.sort((a, b) => a.prioridad - b.prioridad);
-  } else if (sortOption.value === 'modificacion') {
-    tareasOrdenadas.sort((a, b) => new Date(a.fecha_modificacion) - new Date(b.fecha_modificacion));
-  }
+  } 
 
   taskList.innerHTML = '';
   tareasOrdenadas.forEach((tarea) => {
@@ -68,7 +66,7 @@ function editarTarea(id) {
   const tarea = tareas.find(t => t.id === id);
   const nuevoTexto = prompt("Editar tarea:", tarea.texto);
   if (nuevoTexto !== null && nuevoTexto.trim() !== "") {
-    const nuevaPrioridad = parseInt(prompt("Editar prioridad (1-5):", tarea.prioridad));
+    const nuevaPrioridad =Number(prompt("Editar prioridad (1-5):", tarea.prioridad));
     if (!isNaN(nuevaPrioridad) && nuevaPrioridad >= 1 && nuevaPrioridad <= 5) {
       tarea.texto = nuevoTexto;
       tarea.prioridad = nuevaPrioridad;
