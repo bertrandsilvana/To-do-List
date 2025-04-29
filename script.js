@@ -44,8 +44,7 @@ function renderTasks() {
       <div>
         <span><strong>Tarea:</strong> ${tarea.texto}</span>
         <span><strong>Prioridad:</strong> ${tarea.prioridad}</span>
-        <span><strong>Creada:</strong> ${new Date(tarea.fecha_creacion).toLocaleString()}</span>
-        <span><strong>Modificada:</strong> ${new Date(tarea.fecha_modificacion).toLocaleString()}</span>
+        
       </div>
       <div class="controls">
         <button onclick="editarTarea(${tarea.id})"> Editar</button>
