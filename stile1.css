@@ -36,18 +36,6 @@ header {
 .form-container input[type="number"] {
     width: 50px;
 }
-form button {
-    background-color: #28a745;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-  }
-  
-  form button:hover {
-    background-color: #218838; /* Color más oscuro al pasar el mouse */
-  }
-  
 
 .task-list {
     list-style-type: none;
@@ -98,4 +86,20 @@ form button {
 .sort-container select {
     padding: 10px;
 }
+#addTaskBtn {
+    background-color: #28a745;     /* Verde base */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+  }
+  
+  #addTaskBtn:hover {
+    background-color: #218838;     /* Verde más oscuro */
+    transform: scale(1.05);        /* Ligeramente más grande al hacer hover */
+  }
+  
+
 
