@@ -36,6 +36,18 @@ header {
 .form-container input[type="number"] {
     width: 50px;
 }
+form button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  form button:hover {
+    background-color: #218838; /* Color más oscuro al pasar el mouse */
+  }
+  
 
 .task-list {
     list-style-type: none;
