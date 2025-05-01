@@ -18,6 +18,7 @@ header {
 }
 
 .form-container {
+    display: flex;
     background-color: white;
     padding: 20px;
     border-radius: 8px;
@@ -60,6 +61,9 @@ header {
     padding: 5px 10px;
     margin: 0 5px;
     cursor: pointer;
+    width: 100px;
+    margin:1px;
+    border-radius: 5px;
 }
 
 .task-item .edit {
@@ -71,7 +75,7 @@ header {
 .task-item .delete {
     background-color: #ff4444;
     border: none;
-    color: white;
+    color: white;  
 }
 
 .sort-container {
@@ -82,3 +86,4 @@ header {
 .sort-container select {
     padding: 10px;
 }
+
