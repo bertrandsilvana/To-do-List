@@ -6,15 +6,20 @@ body {
     background: linear-gradient(to bottom right, #b9fbc0, #006400);
   }
   
-  
-  
   h1 {
     text-align: center;
   }
   
   form {
-    margin-bottom: 20px;
-  }
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px; /* Espacio entre elementos */
+      flex-wrap: wrap; /* Para que en pantallas pequeñas los elementos bajen */
+      
+    }
+    
+  
   
   input, select, button {
     padding: 8px;
