@@ -79,7 +79,8 @@ El proyecto fue desarrollado como una página web utilizando HTML, CSS y JavaScr
 - Aprox. 330líneas de código desarrolladas( HTML,Css,Js) →  
   **Promedio de productividad: 41,25 líneas por persona/hora**
 - consideramos Buena proporción considerando lógica, estructura y estilo.
-  **Evaluación** Aunque no es un rendimiento alto, se considera aceptable dado que se invirtió tiempo en diseño visual, validaciones y pruebas funcionales. La productividad fue razonable considerando los recursos.
+  **Evaluación** Aunque no es un rendimiento alto, se considera aceptable dado que se invirtió tiempo en 
+  diseño visual, validaciones y pruebas funcionales. La productividad fue razonable considerando los recursos.
 
 ### Comparación con alternativas
 
