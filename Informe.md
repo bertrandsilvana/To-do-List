@@ -2,11 +2,8 @@
 
 **Materia:** Economía Empresarial.  
 **Docente:** Carolina Boldrini. 
-**Integrantes del grupo:**  
-- Cristían Tommasi.  
-- Bertrand Silvana.
-
-
+**Integrantes del grupo:**  Cristían Tommasi,Bertrand Silvana.
+  
 # Informe del Proyecto: To-Do List
 
 ## 1. Descripción del Proyecto
