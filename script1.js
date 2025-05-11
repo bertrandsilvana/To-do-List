@@ -1,4 +1,4 @@
-let tasks = [];  // Aquí guardaremos las tareas
+let tasks = [];  
 
    
     function renderTasks() {
@@ -39,7 +39,7 @@ let tasks = [];  // Aquí guardaremos las tareas
         }
 
         const newTask = {
-            id: Date.now(),  // Usamos el timestamp como ID único
+            id: Date.now(),  
             description,
             priority,
             creationDate: new Date(),

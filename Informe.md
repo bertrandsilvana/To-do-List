@@ -12,13 +12,15 @@
 ## 1. Descripción del Proyecto
 
 **Objetivo:**  
-Desarrollar una página web que permita a los usuarios gestionar tareas . El objetivo principal fue ofrecer una forma simple de agregar, editar y eliminar, también ordenar tareas según su prioridad o su fecha de creación o modificación.
+Desarrollar una página web que permita a los usuarios gestionar tareas .
+El objetivo principal fue ofrecer una forma simple de agregar, editar y eliminar, también ordenar tareas según su prioridad o su fecha de creación o modificación.
 
 **Requisitos funcionales:**
 - Agregar tareas y asignar su prioridad (1-5).
 - Editar tareas.
 - Eliminar tareas.
-- Ordenar tareas por prioridad o fecha de creación - fecha de modificación.
+- Ordenar tareas por prioridad o fecha de creación.
+- fecha de modificación.
 
 
 **Alcance:**  
@@ -51,7 +53,7 @@ El proyecto fue desarrollado como una página web utilizando HTML, CSS y JavaScr
 **Retos encontrados y soluciones:**
 - **Error al hacer `git push`**: se produjo un rechazo por conflicto con la rama remota.  
 - **Solución:** se ejecutó `git pull origin main` para sincronizar, luego se resolvieron los conflictos y se hizo `git push` y se resolvió el problema.
-- **Estilo poco intuitivo al inicio**:  
+- **Estilo poco intuitivo al inicio** 
 - **Solución:** se rediseñó el formulario usando `flexbox` y se aplicaron mejoras visuales como botones con `hover` y transiciones.
 
 
@@ -92,8 +94,8 @@ El proyecto fue desarrollado como una página web utilizando HTML, CSS y JavaScr
 ## Conclusión
 
 El proyecto fue eficaz, ya que se cumplieron todos los objetivos funcionales. En términos de productividad, 
-el rendimiento fue aceptable dadas las circunstancias y el nivel del equipo. Sin embargo, la eficiencia 
-podría mejorarse, ya que se duplicó el tiempo estimado. Aun así, el resultado final fue satisfactorio y 
+el rendimiento fue aceptable dadas las circunstancias y el nivel del equipo. En cuanto a la eficiencia,
+podría mejorarse, ya que se trabajo en el doble de tiempo. Aun así, el resultado final fue satisfactorio y 
 funcional, hubo buena coordinación de equipo.
 
 
