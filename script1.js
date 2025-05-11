@@ -1,9 +1,9 @@
 let tasks = [];  // Aquí guardaremos las tareas
 
-    // Función para mostrar las tareas
+   
     function renderTasks() {
         const taskList = document.getElementById('taskList');
-        taskList.innerHTML = '';  // Limpiar la lista antes de renderizar
+        taskList.innerHTML = '';  
         tasks.forEach(task => {
             const taskItem = document.createElement('li');
             taskItem.classList.add('task-item');
@@ -28,7 +28,7 @@ let tasks = [];  // Aquí guardaremos las tareas
         });
     }
 
-    // Función para agregar tarea
+   
     document.getElementById('addTaskBtn').addEventListener('click', () => {
         const description = document.getElementById('taskDescription').value;
         const priority = parseInt(document.getElementById('taskPriority').value);
@@ -51,7 +51,7 @@ let tasks = [];  // Aquí guardaremos las tareas
         clearForm();
     });
 
-    // Función para editar tarea
+   
     function editTask(id) {
         const task = tasks.find(t => t.id === id);
         const newDescription = prompt('Editar descripción:', task.description);
@@ -65,13 +65,13 @@ let tasks = [];  // Aquí guardaremos las tareas
         }
     }
 
-    // Función para eliminar tarea
+   
     function deleteTask(id) {
         tasks = tasks.filter(t => t.id !== id);
         renderTasks();
     }
 
-    // Función para ordenar tareas
+  
     document.getElementById('sortTasks').addEventListener('change', (e) => {
         const sortBy = e.target.value;
 
@@ -86,12 +86,11 @@ let tasks = [];  // Aquí guardaremos las tareas
         renderTasks();
     });
 
-    // Función para limpiar el formulario
+   
     function clearForm() {
         document.getElementById('taskDescription').value = '';
         document.getElementById('taskPriority').value = '';
     }
 
-    // Renderizar las tareas iniciales (vacío)
     renderTasks();
    

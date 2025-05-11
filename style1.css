@@ -67,13 +67,13 @@ header {
 }
 
 .task-item .edit {
-    background-color: #ffa500;
+    background-color: #112ed4;
     border: none;
     color: white;
 }
 
 .task-item .delete {
-    background-color: #ff4444;
+    background-color: #45517a;
     border: none;
     color: white;  
 }
@@ -87,7 +87,7 @@ header {
     padding: 10px;
 }
 #addTaskBtn {
-    background-color: #28a745;     /* Verde base */
+    background-color: #1b095a;     
     color: white;
     border: none;
     border-radius: 5px;
@@ -97,29 +97,29 @@ header {
   }
   
   #addTaskBtn:hover {
-    background-color: #218838;     /* Verde más oscuro */
-    transform: scale(1.05);        /* Ligeramente más grande al hacer hover */
+    background-color: #8b99c9;    
+    transform: scale(1.05);        
   }
   .form-container {
     display: flex;
-    gap: 10px; /* Espacio entre los elementos */
+    gap: 10px; 
     width: 100%;
 }
 
 #taskDescription {
-    flex: 0 0 60%; /* 50% del ancho */
+    flex: 0 0 60%; 
     padding: 5px;
     font-size: 1rem;
 }
 
 #taskPriority {
-    flex: 0 0 20%; /* 30% del ancho */
+    flex: 0 0 20%; 
     padding: 5px;
     font-size: 1rem;
 }
 
 #addTaskBtn {
-    flex: 1; /* El ancho restante */
+    flex: 1; 
     padding: 5px;
     font-size: 1rem;
     cursor: pointer;

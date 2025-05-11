@@ -64,8 +64,8 @@ El proyecto fue desarrollado como una página web utilizando HTML, CSS y JavaScr
 ### Eficiencia
 
 - **Estimación original:** 
--Parámetro de comparación: 2 programadores × 2 horas = 4 horas-persona
--Recursos reales utilizados: 2 programadores × 4 horas = 8 horas-persona
+-Parámetro de comparación: 2 programadores × 2 horas = 4 horas-persona.
+-Recursos reales utilizados: 2 programadores × 4 horas = 8 horas-persona.
 - **Evaluación** Aunque se completó una solución funcional, se utilizó el doble del tiempo estimado. Esto indica que la eficiencia no fue óptima.Sin embargo, el tiempo adicional se aprovechó para mejorar la interfaz, resolver problemas técnicos y asegurar una aplicación funcional y usable. 
 
 ### Eficacia
