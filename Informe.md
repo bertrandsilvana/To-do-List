@@ -1,3 +1,12 @@
+# Trabajo Práctico – To-Do List
+
+**Materia:** Economía Empresarial.  
+**Docente:** Carolina Boldrini. 
+**Integrantes del grupo:**  
+- Cristían Tommasi.  
+- Bertrand Silvana.
+
+
 # Informe del Proyecto: To-Do List
 
 ## 1. Descripción del Proyecto
@@ -41,9 +50,9 @@ El proyecto fue desarrollado como una página web utilizando HTML, CSS y JavaScr
 
 **Retos encontrados y soluciones:**
 - **Error al hacer `git push`**: se produjo un rechazo por conflicto con la rama remota.  
-  - **Solución:** se ejecutó `git pull origin main` para sincronizar, luego se resolvieron los conflictos y se hizo `git push` y se resolvió el problema.
+- **Solución:** se ejecutó `git pull origin main` para sincronizar, luego se resolvieron los conflictos y se hizo `git push` y se resolvió el problema.
 - **Estilo poco intuitivo al inicio**:  
-  - **Solución:** se rediseñó el formulario usando `flexbox` y se aplicaron mejoras visuales como botones con `hover` y transiciones.
+- **Solución:** se rediseñó el formulario usando `flexbox` y se aplicaron mejoras visuales como botones con `hover` y transiciones.
 
 
 ## 4. Análisis
@@ -81,6 +90,9 @@ El proyecto fue desarrollado como una página web utilizando HTML, CSS y JavaScr
 
 ## Conclusión
 
-El proyecto fue eficaz, ya que se cumplieron todos los objetivos funcionales. En términos de productividad, el rendimiento fue aceptable dadas las circunstancias y el nivel del equipo. Sin embargo, la eficiencia podría mejorarse, ya que se duplicó el tiempo estimado. Aun así, el resultado final fue satisfactorio y funcional, hubo buena coordinación de equipo.
+El proyecto fue eficaz, ya que se cumplieron todos los objetivos funcionales. En términos de productividad, 
+el rendimiento fue aceptable dadas las circunstancias y el nivel del equipo. Sin embargo, la eficiencia 
+podría mejorarse, ya que se duplicó el tiempo estimado. Aun así, el resultado final fue satisfactorio y 
+funcional, hubo buena coordinación de equipo.
 
 
